@@ -1,14 +1,14 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    background-color: #f4f4f4; /* Fondo gris claro */
+    background-color: #f4f4f4; 
   }
   
   .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #3cff00; /* Fondo blanco */
+    background-color: #3cff00; 
   }
   
   .main-content {
@@ -19,23 +19,23 @@ body {
   }
   
   .card {
-    width: 80%; /* Ajustar el ancho según sea necesario */
-    background-color: #f9f9f9; /* Fondo gris más claro */
+    width: 80%; 
+    background-color: #f9f9f9; 
     padding: 70px;
     border-radius: 100px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.68); /* Sombra ligera */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.68); 
     transition: box-shadow 0.3s ease-in-out;
-    display: flex; /* Agregado para asegurar que ambas tarjetas tengan el mismo tamaño */
-    flex-direction: column; /* Añadido para colocar los elementos en columna */
+    display: flex; 
+    flex-direction: column; 
   }
   
   .card:hover {
-    box-shadow: 0 0 20px rgba(25, 205, 9, 0.772); /* Efecto de sombra al pasar el ratón */
+    box-shadow: 0 0 20px rgba(25, 205, 9, 0.772); 
   }
   
   .task-list-container,
   .task-form {
-    width: 100%; /* Ajustar el ancho según sea necesario */
+    width: 100%; 
   }
   
   .task-list-container {
@@ -47,13 +47,13 @@ body {
     margin-bottom: 100px;
   }
   
-  /* Añadido para alinear el título y el placeholder */
+  
   .task-form h2 {
     margin-bottom: 20px;
   }
   
 
-/* Estilos para los botones con efecto hover */
+
 button {
     cursor: pointer;
     margin-right: 5px;
@@ -61,12 +61,12 @@ button {
   }
   
   button.complete {
-    background-color: #4caf50; /* Verde */
+    background-color: #4caf50; 
     color: white;
   }
   
   button:hover {
-    background-color: #4caf50; /* Cambia a verde al pasar el ratón */
+    background-color: #4caf50;
     color: white;
   }
 
@@ -74,8 +74,8 @@ button {
   footer {
     margin-top: 20px;
     align-items: center;
-    background-color: #000000; /* Fondo gris oscuro */
-    color: #fff; /* Texto blanco */
+    background-color: #000000; 
+    color: #fff; 
     padding: 20px;
     text-align: center;
     font-size: larger;
