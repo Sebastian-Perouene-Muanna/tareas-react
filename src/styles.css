@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Fondo gris claro */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #3cff00; /* Fondo blanco */
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 80%; /* Ajustar el ancho según sea necesario */
+    background-color: #f9f9f9; /* Fondo gris más claro */
+    padding: 70px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.68); /* Sombra ligera */
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex; /* Agregado para asegurar que ambas tarjetas tengan el mismo tamaño */
+    flex-direction: column; /* Añadido para colocar los elementos en columna */
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 20px rgba(25, 205, 9, 0.772); /* Efecto de sombra al pasar el ratón */
+  }
+  
+  .task-list-container,
+  .task-form {
+    width: 100%; /* Ajustar el ancho según sea necesario */
+  }
+  
+  .task-list-container {
+    margin-bottom: 100px;
+  }
+  
+  .task-form {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  /* Añadido para alinear el título y el placeholder */
+  .task-form h2 {
+    margin-bottom: 20px;
+  }
+  
+
+/* Estilos para los botones con efecto hover */
+button {
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  button.complete {
+    background-color: #4caf50; /* Verde */
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #4caf50; /* Cambia a verde al pasar el ratón */
+    color: white;
+  }
+
+
+  footer {
+    margin-top: 20px;
+    align-items: center;
+    background-color: #000000; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+  }
+  
